@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo Elementos</title>
+  <style>
+    /*
+    : = pseudo-class
+    :: = pseudo-elements
+    > = children
+    */
+    body {
+      font: normal 20px bold;
+      font-family: sans-serif;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: yellow;
+    }
+
+
+    a:hover {
+      color: black;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: green;
+    }
+
+    a::after {
+      content: '[link]';
+      color: red;
+      text-decoration: none;
+      font-size: 0.5em;
+    }
+
+    .especial::before {
+      content: '->'
+    }
+  </style>
+
+
+</head>
+
+<body>
+  Personalizando Links:
+  <ul>
+    <li><a href="https://www.google.com/" target="_blank" class="especial">Google</a></li>
+    <li><a href="https://youtube.com">Youtube</a></li>
+    <li><a href="https://instagram.com">Instagram</a></li>
+    <li><a href="https://jbl.com">jbl</a></li>
+  </ul>
+
+
+</body>
+
+</html>

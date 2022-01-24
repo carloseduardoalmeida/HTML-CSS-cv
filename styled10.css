@@ -1,0 +1,51 @@
+@charget "UTF-8";
+
+header{
+  background-image: linear-gradient(to bottom,  #4ac26b, #2da44e, #116329 );
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+header>h2,header>p{
+  
+}
+.anav{
+  color: white;
+  text-decoration: none;
+}
+body{
+  background:#6fdd8b;
+
+}
+main{
+  background: white;
+  margin: 0px 150px ;
+}
+footer{
+  background: white;
+  margin: 0px 150px ;
+  padding: 15px;
+}
+.footer{
+  background: #aceebb;
+  border-radius: 15px;
+  margin: 15px;
+  padding-bottom: 15px;  
+}
+
+h3{
+  background: #116329;
+  border-radius: 15px 15px 0px 0px;
+
+ 
+}
+
+.video{
+  background: #0b3b19;
+  padding: 0px 25px;
+ 
+}
+
+p{
+  text-indent: 15px;
+}

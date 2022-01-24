@@ -1,0 +1,35 @@
+Box é composta por:
+height, width, border,padding, margin, outline
+padding: espaço interno entre o conteudo da box e a box
+margin: espaço externo entre a box e outros elementos
+
+Há 2 tipos de box:
+BOX-LEVEL E BOX-INLINE
+Box-level: pula para a linha de baixo para continuar e ocupa toda a largura da tela.
+Box-inline: continua na mesma linha e não ocupa a largura toda da tela (ocupa apenas o 
+que ele precisa usar).
+
+exemplos de BOX-LEVEL:
+<div>
+<h1>-<h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<footer>
+<form>
+<video>
+
+exemplos de BOX-INLINE:
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup>-<sub>
+<label>
+<button>
+<input>
+<select>

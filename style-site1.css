@@ -1,0 +1,26 @@
+@charget UTF-8;
+body{
+  background-image: linear-gradient(to bottom, #133647, #215D7A, #3697C7);
+  background-attachment: fixed;
+}
+main{
+  background-color: rgb(253, 253, 253);
+  width: 500px;
+  border-radius: 30px;
+  padding: 15px;
+  margin: auto;
+  box-shadow: 5px 5px 15px rgb(49, 49, 49);
+}
+
+h1{
+  color: #C76200;
+  text-align: center;
+  text-shadow: 1px 1px 2px #6e3802;
+}
+h2{
+  color:#462300;
+}
+
+p{
+  text-align: justify;
+}

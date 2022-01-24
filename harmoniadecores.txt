@@ -1,0 +1,7 @@
+Base: Círculo cromático: 12 cores principais:
+Cores primárias: amarelo, azul e vermelho
+Cores secundárias: laranja, violeta e verde
+Cores terciárias: misturas das cores primárias 
+com as secundárias (nomeando as primárias primeiro)
+EX: amarelo-esverdeado, amarelo-alaranjado, vermelho-alaranjado,
+vermelho-aroxeado, azul-aroxeado, azul-esverdeado

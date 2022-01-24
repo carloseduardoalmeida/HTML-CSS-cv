@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fontes</title>
+  <style>
+    /*TIPOS DE MEDIDAS DE FONTE:
+    MEDIAS ABSOLUTAS:
+    cm, mm, in, px, pt, pc
+
+    MEDIDAS RELATIVAS:
+    em, ex, rem, vw, vh, %
+
+    RECOMENDADO PARA FONTES; em e px
+    em pode ser usado com numeros inteios 0.5 / 1.5
+    */
+    .serifada {
+      font-family: serif;
+    }
+
+    .semserif {
+      font-family: sans-serif;
+    }
+
+    .monospace {
+      font-family: monospace;
+    }
+
+    p {
+      /*Como definir fontes com responsividade*/
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h4 {
+      /*Declaração  normal:
+      font-family: x;
+      font-size: y;
+      font-weight: bold;
+      font-style: italic;
+      SHORTHAND condensa family, size, wigth e style em uma só linha:
+      sequencia: style> weight> size> family:
+      font: italic bold 1em 'work Sans', sans-serif;
+      (não precisa usar todos os parametros)
+      */
+    }
+  </style>
+</head>
+
+<body>
+  Fonte padrão = Times New Roman.
+  <h2 class="serifada">Fonte serifada</h2>
+  <h2 class="semserif">Fonte sem serif</h2>
+  <h2 class="monospace">Fonte monoespaçada</h2>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat maiores voluptas exercitationem impedit
+    officia ullam libero beatae autem nulla deleniti praesentium illo, perspiciatis sapiente eligendi et incidunt
+    possimus alias?</p>
+
+  <h4>Shothand</h4>
+
+</body>
+
+</html>

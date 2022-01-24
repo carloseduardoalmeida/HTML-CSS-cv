@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fontes Externas</title>
+  <style>
+    /*Os arquivos das fontes podem ser guardados em uma pasta para elas, 
+    mas lembre-se de colocar o caminho do arquivo na hora de chamar
+    Como usar fontes baixadas em otf ou ttf:
+    */
+    @font-face {
+      font-family: 'nome-fonte';
+      /*pode escolher o nome, mas quando for chamar a fonte tem que usar o nome escolhido*/
+      src: url('arquivodafonte.otf') format('opentype'),
+        url('arquivodafonte.ttf') format('truetype');
+      /*Tipos de format():
+      opentype (otf)
+      truetype (ttf)
+      embedded-opentype
+      truetype-aat (Apple Advanced Typography)
+      svg
+      */
+      font-weight: normal;
+      font-style: normal;
+      /*pode atribuir seus parametros para a fonta desde que ela possua*/
+    }
+
+    p {
+      font-family: 'nome-fonte', times, serif;
+      font-size: 2em;
+      font-weight: normal;
+      ;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Fontes externas</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia esse possimus ut obcaecati porro deleniti nobis
+    praesentium, doloremque minima laboriosam quis iure sit molestiae reprehenderit magnam necessitatibus! Neque, ipsam
+    beatae?</p>
+
+</body>
+
+</html>
