@@ -19,6 +19,20 @@ html, body{
   font-family: var(--fonte1);
 }
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  background-color: lightgray;
+  border-radius: 15px;
+  padding: 5px;
+  color: black;
+  font-weight: bolder;
+}
+
 header{
   background-color: black;
   color: white;
@@ -46,10 +60,13 @@ section#img2{
   
 }
 section.imagem{
-  background-position: right center;
-  background-position: cover;
+  background-position: right top;
+  background-size: cover;
   background-attachment: fixed;
   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
+  
+  
+  
 }
 
 section{
