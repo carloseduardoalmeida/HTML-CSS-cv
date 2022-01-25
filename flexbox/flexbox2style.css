@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.container{
+  background-color: rgb(151, 142, 142);
+  height: 200px;
+  display: flex;
+  flex-direction: row ;
+}
+
+.item{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+  
+  /*flex-grow: 1;  flex-grow: aumenta o tamanho do item*/
+ flex-basis: 560px;  /*largura inicial para os itens*/
+  /*flex-shrink: diminui o tamanho do item*/
+}
+
+.article01{}
+.article02{
+   flex-shrink: 4;
+  }
+.article03{}
