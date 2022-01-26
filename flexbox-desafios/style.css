@@ -1,44 +1,275 @@
 @charset "UTF-8";
 
-
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  
+  text-align: center;
 }
 
+ul{
+  list-style: none;
+}
 a{
   text-decoration: none;
-}
-li{
-  list-style: none;
 }
 
 .header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  font-size: 1.1em;
+  padding: 20px 50px;
 }
-
-.header img{
-  width: 300px;
+header img{
+  width: 200px;
 }
-
-
 header nav ul{
   display: flex;
   
 }
 
 header nav ul li a{
-  padding: 10px;
+  margin: 10px;
   color: #191c03;
+ 
 }
-header ul li:first-child{
-  margin-left: 0;
+@media(max-width: 700px){
+  .header{
+    flex-direction: column;
+  }
+  header img{
+    margin-bottom: 20px;
+  }
 }
-header ul li:last-child{
-  margin-right: 0;
+
+
+
+.baner{
+  background-image: url('assets/imagens/hero.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+.baner h1{
+  font-size: 4em;
+  color: white;
+  margin-bottom: 40px;
+}
+.baner h3{
+  font-size: 2em;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.baner button{
+  display: flex;
+  padding: 20px;
+  height: 40px;
+  width: 150px;
+  font-size: 1em;
+  background-color: white;
+  color: rgb(41, 41, 41);
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  border-color: white;
+
+}
+
+@media(max-width: 700px){
+  .baner h1{
+    font-size: 2em;
+  }
+  .baner h3{
+    font-size: 1.3em;
+  }
+}
+
+.corpo{
+  color: #191c03;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.corpo h1{
+  font-size: 2.6em;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.corpo p{
+  font-size: 1.3em;
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+
+.corpo hr{
+  width: 200px;
+  height: 2px;
+  background-color: #191c03;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.grid{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.grid li{
+  height: 350px;
+  border-radius: 4px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  
+}
+
+li.small{
+  flex-basis:calc(40% - 20px) ;
+}
+
+li.large{
+  flex-basis:calc(60% - 20px) ;
+}
+
+@media(max-width: 700px){
+  li.small, li.large{
+    flex-basis: 100%;
+  }
+}
+
+.final{
+  background-color: #191c03;
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.final h1{
+  font-size: 3em;
+}
+
+.final p{
+  max-width: 800px;
+  font-size: 1.2em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.info h2{
+  margin-bottom: 30px;
+  font-size: 1.5em;
+}
+
+.info{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info li{
+  padding: 0 15px;
+}
+
+.info li i{
+  color: #c3c63b;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter h1{
+  font-size: 2.5em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.newsletter p{
+  color: #191c03;
+  font-size: 1.3em;
+  margin-bottom: 40px;
+}
+
+.newsletter form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.newsletter input{
+  border: 1px solid #191c03;
+  padding: 15px;
+  border-radius: 4px;
+  margin-right: 15px;;
+  flex: 1;
+}
+
+.newsletter button{
+  background-color: #191c03;
+  padding: 15px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media(max-width: 700px){
+  .newsletter input{
+    flex-basis: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+
+footer{
+  background-color: #191c03;
+  color: white;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+footer ul li{
+  margin-right: 15px;
+}
+
+footer ul li a{
+  color: #829206;
+  font-size: 2em;
+}
+
+footer p{
+  color: #829206;
+}
+

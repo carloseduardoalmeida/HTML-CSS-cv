@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/f5d1d9863e.js" crossorigin="anonymous"></script>
   <title>Hotel Paraiso</title>
 
   <link rel="stylesheet" href="style.css">
@@ -12,78 +13,111 @@
 
 <body>
 
-  <header class="header">
-    <img src="assets/imagens/logo.png" alt="logo">
-
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Reservas</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
+  <header>
+    <section class="header">
+      <img src="assets/imagens/logo.png" alt="logo">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Reservas</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </section>
 
   </header>
 
   <main>
-    <section>
+    <section class="baner">
       <h1>Conheça este paraíso chamado Itacaré</h1>
-      <p>Aconchego, conforto, simpátia e alto astral</p>
-      <button>Saiba mais</button>
+      <h3>Aconchego, conforto, simpátia e alto astral</h3>
+      <button>SAIBA MAIS</button>
     </section>
 
-    <section>
+    <section class="corpo">
       <h1>Conheça o Hotel Paraíso!</h1>
+
       <p>Feche os olhos e imagine o paraíso. Um lugar no meio da Mata Atlântica
         e banhado pelo mar, onde você encontra paz, tranquilidade, conforto e comodidade.
       </p>
+
+      <hr>
+
+      <ul class="grid">
+        <li class="small" style="background-image: url('assets/imagens/itacare-01.jpg');"></li>
+        <li class="large" style="background-image: url('assets/imagens/itacare-02.jpg');"></li>
+        <li class="large" style="background-image: url('assets/imagens/itacare-03.jpg');"></li>
+        <li class="small" style="background-image: url('assets/imagens/itacare-04.jpg');"></li>
+      </ul>
+
     </section>
 
-    <section>
-      fotos
-    </section>
-    <section>
+
+    <section class="final">
       <h1>Único Hotel pé na areia de Itacaré</h1>
       <p>Implantado em uma área completamente autorizada, o Hotel Paraíso é o Único
         hotel pé na areia de Itacaré. Aqui o mar será seu companheiro e você terá
         as belezas da natureza como guia.</p>
 
-      <article>
-        ÍCONE
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex doloribus nulla consequuntur temporibus ipsum
-          inventore, blanditiis reiciendis corrupti molestias hic magni ut quo minus mollitia illum dicta quis ratione
-          numquam.</p>
 
-        ÍCONE
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex doloribus nulla consequuntur temporibus ipsum
-          inventore, blanditiis reiciendis corrupti molestias hic magni ut quo minus mollitia illum dicta quis ratione
-          numquam.</p>
 
-        ÍCONE
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex doloribus nulla consequuntur temporibus ipsum
-          inventore, blanditiis reiciendis corrupti molestias hic magni ut quo minus mollitia illum dicta quis ratione
-          numquam.</p>
-      </article>
+      <ul class="info">
+        <li>
+          <i class="fas fa-location-arrow"></i>
+          <h2>Localização</h2>
+          <p>Localizada no sul da Bahia, entre o mar<br>
+            e a mata atlântica, Itacaré tem<br>
+            refrescantes cachoeiras e praias<br>
+            belíssimas, muitas delas tão pequenas<br>
+            que nem aparece no mapa.</p>
+        </li>
+
+        <li>
+          <i class="fas fa-gift"></i>
+          <h2>Pacotes e ofertas</h2>
+          <p>Sabe aquele descontraído encontro <br>
+            com a família e amigos? ou um <br>
+            momento relax? Nossa estrututa conta<br>
+            com uma diversidade de espaços que<br>
+            proporcionam momentos inesquecíveis.</p>
+        </li>
+
+        <li>
+          <i class="fas fa-home"></i>
+          <h2>Acomodações</h2>
+          <p>Hotel paraíso possúi 29 unidades,<br>
+            divididas entra 11 chalés, 16 amplas<br>
+            suites e 2 chalés familiar, todas com tv<br>
+            a cabo, frigobar, além de varandas<br>
+            com rede</p>
+        </li>
+      </ul>
+
+
     </section>
 
-    <section>
+    <section class="newsletter">
       <h1>Newsletter</h1>
       <p>Assine nossa Newsletter para se manter atualizado com nossos serviços
         e a programação de nossas culturais.
       </p>
 
       <form>
-        <input type="text" value="Email">
-      </form>
-      <button>Cadastrar</button>
+        <input type="text" placeholder="Email">
 
+        <button>Cadastrar</button>
+      </form>
 
     </section>
   </main>
 
   <footer>
-    icones
+    <ul>
+      <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+      <li><a href=""><i class="fab fa-instagram"></i></a></li>
+      <li><a href=""><i class="fab fa-twitter"></i></a></li>
+    </ul>
     <p>Todos os direitos reservados Hotel Paraíso 2023</p>
   </footer>
 
